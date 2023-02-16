@@ -1,0 +1,14 @@
+name: figs-env
+channels:
+  - pytorch
+  - anaconda
+  - conda-forge
+dependencies:
+  - python=3.7
+  - pip 
+  - pip:
+    - numpy
+    - matplotlib
+    - pandas 
+    - mplhep
+    - notebook
